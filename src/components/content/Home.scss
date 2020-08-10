@@ -1,0 +1,94 @@
+.home {
+    width: 100%;
+    height: 100%;
+
+    .swiperBox {
+        width: 100%;
+        height: 260px;
+        border-radius: 6px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+
+        .swiper-slide {
+            width: 100%;
+            height: 100%;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .swiper-pagination {
+        width: 100%;
+        height: 26px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+
+        .swiper-pagination-bullet {
+            border-radius: 10px;
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin: 0 7px;
+            background: #fff;
+            opacity: .9;
+            text-indent: -9999px;
+            cursor: pointer;
+        }
+
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+            background: #12b7de;
+        }
+
+        .swiper-button-prev{
+            position: absolute;
+            height: 32px;
+            line-height: 32px;
+            width: 40px;
+            top: 50%;
+            left: 50px;
+            z-index: 4;
+            margin-top: -25px;
+            cursor: pointer;
+            opacity: 0;
+            background: url(../../assets/images/left.png) no-repeat;
+        }
+
+        .swiper-button-next{
+            position: absolute;
+            height: 32px;
+            line-height: 32px;
+            width: 40px;
+            top: 50%;
+            left: 50px;
+            z-index: 4;
+            margin-top: -25px;
+            cursor: pointer;
+            opacity: 0;
+            background: url(../../assets/images/right.png) no-repeat;
+        }
+    }
+
+    .centerBox {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .rightBox {
+        width: 100%;
+        padding-left: 10px;
+    }
+}

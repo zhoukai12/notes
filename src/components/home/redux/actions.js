@@ -1,0 +1,1 @@
+export {reduce1} from './reduce1'
